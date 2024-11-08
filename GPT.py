@@ -4,7 +4,7 @@ import socket
 
 # 서버 IP와 포트 설정
 HOST = '192.168.80.104'  # 서버 IP를 지정
-PORT = 8000            # 서버와 동일한 포트 번호
+PORT = 80            # 서버와 동일한 포트 번호
 
 def get_gpt_ask(input):
     # 소켓 생성 및 서버 연결
