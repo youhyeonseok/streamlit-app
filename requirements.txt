@@ -1,3 +1,4 @@
 plotly
-streamlit_chat
-streamlit_antd_components
+streamlit-chat
+streamlit-antd-components
+streamlit-on-Hover-tabs
