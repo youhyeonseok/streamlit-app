@@ -15,6 +15,7 @@ def get_gpt_ask(input):
     try:
         message = input.encode('utf-8')
         client_socket.sendall(message)
+        client_socket.settimeout(100)  # 10초 타임아웃 설정
         data = client_socket.recv(1024)
         print("서버로부터 받은 응답:", data.decode('utf-8'))
     finally:
